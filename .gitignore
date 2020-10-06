@@ -7,8 +7,6 @@ workspace/
 logs/
 kernals
 opencv_world343d.dll
-ui/
-ml/
 .vs/
 *.ipch
 *.jpg
