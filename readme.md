@@ -3,18 +3,23 @@ This readme file is the description of the folder "FYP"
 --------------------Files Description--------------------
 
 "datasets":                   datasets of facial images
+
 "docs":                       presentation slides, interim report and final report
+
 "gui":                        the GUI for demonstration
       "gui.py":               the GUI script using python
+      
 "src":
       "deep-learning":        source codes for CNN and GAN in python
       "machine-learning":     source codes for PCA, LLE, SR in C++
       "mahcine-learning-gui": source codes for PCA, LLE, SR into a single exe for demo
+      
 "tools":
       "crop.py":              cropped the images to another size
       "down.py":              downsampling the images
       "norm.py":              face detection and alignment
       "up.py"  :              upscaling the images using bicubic interpolation
+      
 "workspace":                  the programs used for super-resolution
       "pca.exe":              SR using PCA
       "lle.exe":              SR using LLE
