@@ -7,26 +7,41 @@ This readme file is the description of the folder "FYP"
 "docs":                       presentation slides, interim report and final report
 
 "gui":                        the GUI for demonstration
+
       "gui.py":               the GUI script using python
       
 "src":
+
       "deep-learning":        source codes for CNN and GAN in python
+      
       "machine-learning":     source codes for PCA, LLE, SR in C++
+      
       "mahcine-learning-gui": source codes for PCA, LLE, SR into a single exe for demo
       
 "tools":
+
       "crop.py":              cropped the images to another size
+      
       "down.py":              downsampling the images
+      
       "norm.py":              face detection and alignment
+      
       "up.py"  :              upscaling the images using bicubic interpolation
       
 "workspace":                  the programs used for super-resolution
+
       "pca.exe":              SR using PCA
+      
       "lle.exe":              SR using LLE
+      
       "ssr.exe":              SR using SR
+      
       "cnn.py" :              SR using CNN
+      
       "gan.py" :              SR using GAN
+      
       "measure.m":            measure the PSNR and SSIM
+      
       "models" :              the trainned models for CNN and GAN
 
 --------------------Programs Description--------------------
