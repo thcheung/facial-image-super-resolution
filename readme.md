@@ -1,6 +1,7 @@
 This readme file is the description of the folder "FYP"
 
 --------------------Files Description--------------------
+
 "datasets":                   datasets of facial images
 "docs":                       presentation slides, interim report and final report
 "gui":                        the GUI for demonstration
@@ -24,6 +25,7 @@ This readme file is the description of the folder "FYP"
       "models" :              the trainned models for CNN and GAN
 
 --------------------Programs Description--------------------
+
 0. Direct to the folder "workspace"
 1. Place the HR trainning samples into folder "sample_hr"
 2. Place the LR trainning samples into folder "sample_lr"
@@ -34,6 +36,7 @@ This readme file is the description of the folder "FYP"
 7. run measure.m in MATLAB to measure the PSNR and SSIM of the super-resolved images
 
 --------------------GUI Description--------------------
+
 0. Direct to the folder "gui"
 1. Run "gui.py"
 2. click 'load' to load the LR image as the input
