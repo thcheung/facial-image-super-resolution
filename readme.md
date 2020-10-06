@@ -1,29 +1,51 @@
 This readme file is the description of the folder "FYP"
 
 --------------------Files Description--------------------
+
 "datasets":                   datasets of facial images
+
 "docs":                       presentation slides, interim report and final report
+
 "gui":                        the GUI for demonstration
+
       "gui.py":               the GUI script using python
+      
 "src":
+
       "deep-learning":        source codes for CNN and GAN in python
+      
       "machine-learning":     source codes for PCA, LLE, SR in C++
+      
       "mahcine-learning-gui": source codes for PCA, LLE, SR into a single exe for demo
+      
 "tools":
+
       "crop.py":              cropped the images to another size
+      
       "down.py":              downsampling the images
+      
       "norm.py":              face detection and alignment
+      
       "up.py"  :              upscaling the images using bicubic interpolation
+      
 "workspace":                  the programs used for super-resolution
+
       "pca.exe":              SR using PCA
+      
       "lle.exe":              SR using LLE
+      
       "ssr.exe":              SR using SR
+      
       "cnn.py" :              SR using CNN
+      
       "gan.py" :              SR using GAN
+      
       "measure.m":            measure the PSNR and SSIM
+      
       "models" :              the trainned models for CNN and GAN
 
 --------------------Programs Description--------------------
+
 0. Direct to the folder "workspace"
 1. Place the HR trainning samples into folder "sample_hr"
 2. Place the LR trainning samples into folder "sample_lr"
@@ -34,6 +56,7 @@ This readme file is the description of the folder "FYP"
 7. run measure.m in MATLAB to measure the PSNR and SSIM of the super-resolved images
 
 --------------------GUI Description--------------------
+
 0. Direct to the folder "gui"
 1. Run "gui.py"
 2. click 'load' to load the LR image as the input
