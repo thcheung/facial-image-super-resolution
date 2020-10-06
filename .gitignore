@@ -1,0 +1,14 @@
+datasets/
+build/
+dist/
+imagesInput/
+imagesOutput/
+workspace/
+logs/
+kernals
+opencv_world343d.dll
+ui/
+.vs/
+*.ipch
+*.jpg
+Debug/

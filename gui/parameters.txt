@@ -1,0 +1,6 @@
+#Parameters
+upscale 8
+dataset 1
+method PCA
+test_lr C:/Users/Tsun Hin CHEUNG/OneDrive - The Hong Kong Polytechnic University (1)/Study/EIE4433_Honours Project/gui/tests/1_8x/502.jpg
+test_sr results/502.jpg
